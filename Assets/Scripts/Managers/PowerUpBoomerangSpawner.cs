@@ -12,6 +12,8 @@ public class PowerUpBoomerangSpawner : MonoBehaviour
 
     private float counterSpawnBoomerang;
 
+    private bool hasSpawnPowerUp = false;
+
 
     void Awake()
     {
@@ -62,6 +64,8 @@ public class PowerUpBoomerangSpawner : MonoBehaviour
             if (PlayersManager.Instance.CurrentPlayers.Count == 1) return; // Esto evitar que se instancien powerUps si finalizo la ronda
         }
 
+        if (hasSpawnPowerUp) return;
+
         counterSpawnBoomerang += Time.deltaTime;
 
         if (counterSpawnBoomerang >= timeToSpawnNewBoomerang)
@@ -76,6 +80,7 @@ public class PowerUpBoomerangSpawner : MonoBehaviour
             powerUp.photonView.RPC("Initialize", RpcTarget.All, powerUpId);
             //powerUp.Initialize(powerUpId);
             counterSpawnBoomerang = 0;
+            hasSpawnPowerUp = true;
         }
     }
 }

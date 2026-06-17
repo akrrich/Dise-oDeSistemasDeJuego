@@ -144,7 +144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boomerangType: 3
   damage: 2
-  movementSpeed: 8
+  movementSpeed: 8.5
   rotationSpeed: 500
   timeToGetBoomerangBackIfIsCollidingWithSomePlayer: 5
   damageCooldown: 1.15

@@ -11,13 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Room.unity
     guid: 6cad93651ad34d5488730058591a1f29
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Levels/Level1.unity
     guid: 97e345111c321fd479d1df20bc8c8064
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Levels/Level2.unity
     guid: cc2500e554867bc4181452aecbb55af8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Levels/Level3.unity
     guid: c97f4df626f15f84581f452cbb4be151
   - enabled: 1
@@ -26,4 +26,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bootstrap.unity
     guid: 036e9a499b8e4c647a52574f9dfd089d
+  - enabled: 1
+    path: Assets/Scenes/LevelsRoman/Level3.unity
+    guid: 63a572d3feb27cc4a9a2777c5ef517a3
+  - enabled: 1
+    path: Assets/Scenes/LevelsRoman/Level2.unity
+    guid: 72a3e85924350704e82fcea72fc85390
+  - enabled: 1
+    path: Assets/Scenes/LevelsRoman/Level1.unity
+    guid: e6cbf0621396ddd49affe6d98c4cdcd1
   m_configObjects: {}
